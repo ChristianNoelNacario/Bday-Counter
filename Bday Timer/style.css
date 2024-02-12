@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('https://images.unsplash.com/photo-1464349153735-7db50ed83c84?q=80&w=1928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin-bottom: 20rem;
+    font-family: "Protest Riot", sans-serif;
+    color: white;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.TimerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.TimeLeft {
+    line-height: .5;
+    font-size: 6rem;
+    margin: 0 2rem;
+    text-align: center;
+}
